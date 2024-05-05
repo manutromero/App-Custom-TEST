@@ -288,6 +288,11 @@
   dependencies:
     "@octokit/openapi-types" "^9.4.0"
 
+"@one-ini/wasm@0.1.1":
+  "integrity" "sha512-XuySG1E38YScSJoMlqovLru4KTUNSjgVTIjyh7qMX6aNN5HY5Ct5LhRJdxO79JtTzKfzV/bnWpz+zquYrISsvw=="
+  "resolved" "https://registry.npmjs.org/@one-ini/wasm/-/wasm-0.1.1.tgz"
+  "version" "0.1.1"
+
 "@types/color-name@^1.1.1":
   "integrity" "sha512-rr+OQyAjxze7GgWrSaJwydHStIhHq2lvY3BOC2Mj7KnzI7XK0Uw1TOOdI9lDoajEbSWLiYgoo4f1R51erQfhPQ=="
   "resolved" "https://registry.npmjs.org/@types/color-name/-/color-name-1.1.1.tgz"
@@ -421,10 +426,10 @@
     "intl-messageformat-parser" "^6.0.9"
     "util" "^0.12.1"
 
-"@vtex/prettier-config@^0.3.5":
-  "integrity" "sha512-/mIPrS2Qz9vG//aRxk/hi3Np/NWfTbbJakVuy+ouY5Gh6tfYfC83neAm4KSJsNVVcIcPP1Shc4/Y9zVmgmNCRA=="
-  "resolved" "https://registry.npmjs.org/@vtex/prettier-config/-/prettier-config-0.3.5.tgz"
-  "version" "0.3.5"
+"@vtex/prettier-config@^1.0.0":
+  "integrity" "sha512-4Uv67bK2eORhzWg/11J5/+fxPUWY6b0sYdhcqMzIgo0zluXlYqbZU6iueKZ48SxG4ODw8ZaqMRfpNsLd3Gw5+Q=="
+  "resolved" "https://registry.npmjs.org/@vtex/prettier-config/-/prettier-config-1.0.0.tgz"
+  "version" "1.0.0"
 
 "abab@^1.0.0":
   "integrity" "sha1-X6rZwsB/YN12dw9xzwJbYqY8/U4= sha512-I+Wi+qiE2kUXyrRhNsWv6XsjUTBJjSoVSctKNBfLG5zG/Xe7Rjbxf13+vqYHNTwHaFU+FtSlVxOCTiMEVtPv0A=="
@@ -825,6 +830,13 @@
     "balanced-match" "^1.0.0"
     "concat-map" "0.0.1"
 
+"brace-expansion@^2.0.1":
+  "integrity" "sha512-XnAIvQ8eM+kC6aULx6wuQiwVsnzsi9d3WxzV3FpWTGA19F621kwdbsAcFKXgKUHZWsy+mY6iL1sHTxWEFCytDA=="
+  "resolved" "https://registry.npmjs.org/brace-expansion/-/brace-expansion-2.0.1.tgz"
+  "version" "2.0.1"
+  dependencies:
+    "balanced-match" "^1.0.0"
+
 "braces@^2.3.1":
   "integrity" "sha512-aNdbnj9P8PjdXU4ybaWLK2IF3jc/EoDYbC7AazW6to3TRsfXxscC9UXOB5iDiEQrkyIbWp2SLQda4+QAa7nc3w=="
   "resolved" "https://registry.npmjs.org/braces/-/braces-2.3.2.tgz"
@@ -1065,6 +1077,11 @@
   "version" "1.0.8"
   dependencies:
     "delayed-stream" "~1.0.0"
+
+"commander@^11.0.0":
+  "integrity" "sha512-yPVavfyCcRhmorC7rWlkHn15b4wDVgVmBA7kV4QVBsF7kv/9TKJAbAXVTxvTnwP8HHKjRCJDClKbciiYS7p0DQ=="
+  "resolved" "https://registry.npmjs.org/commander/-/commander-11.1.0.tgz"
+  "version" "11.1.0"
 
 "commander@^2.18.0":
   "integrity" "sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ=="
@@ -1433,6 +1450,16 @@
   "version" "1.0.11"
   dependencies:
     "safe-buffer" "^5.0.1"
+
+"editorconfig@^2.0.0":
+  "integrity" "sha512-s1NQ63WQ7RNXH6Efb2cwuyRlfpbtdZubvfNe4vCuoyGPewNPY7vah8JUSOFBiJ+jr99Qh8t0xKv0oITc1dclgw=="
+  "resolved" "https://registry.npmjs.org/editorconfig/-/editorconfig-2.0.0.tgz"
+  "version" "2.0.0"
+  dependencies:
+    "@one-ini/wasm" "0.1.1"
+    "commander" "^11.0.0"
+    "minimatch" "9.0.2"
+    "semver" "^7.5.3"
 
 "emoji-regex@^7.0.1":
   "integrity" "sha512-CwBLREIQ7LvYFB0WyRvwhq5N5qPhc6PMjD6bYggFlI5YyDgl+0vxq5VHbMOFqLg7hfWzmu8T5Z1QofhmTIhItA=="
@@ -3194,6 +3221,13 @@
   dependencies:
     "js-tokens" "^3.0.0 || ^4.0.0"
 
+"lru-cache@^6.0.0":
+  "integrity" "sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA=="
+  "resolved" "https://registry.npmjs.org/lru-cache/-/lru-cache-6.0.0.tgz"
+  "version" "6.0.0"
+  dependencies:
+    "yallist" "^4.0.0"
+
 "macos-release@^2.2.0":
   "integrity" "sha512-EIgv+QZ9r+814gjJj0Bt5vSLJLzswGmSUbUpbi9AIr/fsN2IWFBl2NucV9PAiek+U1STK468tEkxmVYUtuAN3g=="
   "resolved" "https://registry.npmjs.org/macos-release/-/macos-release-2.5.0.tgz"
@@ -3283,6 +3317,13 @@
   "version" "3.0.4"
   dependencies:
     "brace-expansion" "^1.1.7"
+
+"minimatch@9.0.2":
+  "integrity" "sha512-PZOT9g5v2ojiTL7r1xF6plNHLtOeTpSlDI007As2NlA2aYBMfVom17yqa6QzhmDP8QOhn7LjHTg7DFCVSSa6yg=="
+  "resolved" "https://registry.npmjs.org/minimatch/-/minimatch-9.0.2.tgz"
+  "version" "9.0.2"
+  dependencies:
+    "brace-expansion" "^2.0.1"
 
 "minimist@^1.1.0", "minimist@^1.2.0", "minimist@^1.2.5":
   "integrity" "sha512-bzfL1YUZsP41gmu/qjrEk0Q6i2ix/cVeAhbCbqH9u3zYutS1cLg00qhrD0M2MVdCcx4Sc0UpP2eBWo9rotpq6g=="
@@ -3781,10 +3822,10 @@
   dependencies:
     "fast-diff" "^1.1.2"
 
-"prettier@^1 || ^2", "prettier@^1.18.2 || ^2.0.4", "prettier@^2.2.0", "prettier@>=1.13.0":
-  "integrity" "sha512-yYerpkvseM4iKD/BXLYUkQV5aKt4tQPqaGW6EsZjzyu0r7sVZZNPJW4Y8MyKmicp6t42XUPcBVA+H6sB3gqndw=="
-  "resolved" "https://registry.npmjs.org/prettier/-/prettier-2.2.0.tgz"
-  "version" "2.2.0"
+"prettier@^1 || ^2", "prettier@^1.18.2 || ^2.0.4", "prettier@^2.2.0", "prettier@^2.4.0", "prettier@>=1.13.0":
+  "integrity" "sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q=="
+  "resolved" "https://registry.npmjs.org/prettier/-/prettier-2.8.8.tgz"
+  "version" "2.8.8"
 
 "prettyjson@^1.2.1":
   "integrity" "sha1-/P+rQdGcq0365eV15kJGYZsS0ok= sha512-OtVsCpS5jth8jQPonGGmRpYpUfATBudt0kHkehri7h9jg9WsayPDCD6mneknVluZRfiMMlSS98Z99pl8zJLYtw=="
@@ -4068,10 +4109,12 @@
   "resolved" "https://registry.npmjs.org/semver/-/semver-5.7.1.tgz"
   "version" "5.7.1"
 
-"semver@^7.2.1", "semver@^7.3.2":
-  "integrity" "sha512-OrOb32TeeambH6UrhtShmF7CRDqhL6/5XpPNp2DuRH6+9QLw/orhp72j87v8Qa1ScDkvrrBNpZcDejAirJmfXQ=="
-  "resolved" "https://registry.npmjs.org/semver/-/semver-7.3.2.tgz"
-  "version" "7.3.2"
+"semver@^7.2.1", "semver@^7.3.2", "semver@^7.5.3":
+  "integrity" "sha512-EnwXhrlwXMk9gKu5/flx5sv/an57AkRplG3hTK68W7FRDN+k+OWBj65M7719OkA82XLBxrcX0KSHj+X5COhOVg=="
+  "resolved" "https://registry.npmjs.org/semver/-/semver-7.6.0.tgz"
+  "version" "7.6.0"
+  dependencies:
+    "lru-cache" "^6.0.0"
 
 "semver@2 || 3 || 4 || 5":
   "integrity" "sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ=="
@@ -4829,6 +4872,11 @@
   "integrity" "sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ=="
   "resolved" "https://registry.npmjs.org/xtend/-/xtend-4.0.2.tgz"
   "version" "4.0.2"
+
+"yallist@^4.0.0":
+  "integrity" "sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A=="
+  "resolved" "https://registry.npmjs.org/yallist/-/yallist-4.0.0.tgz"
+  "version" "4.0.0"
 
 "yaml@^1.10.0":
   "integrity" "sha512-yr2icI4glYaNG+KWONODapy2/jDdMSDnrONSjblABjD9B4Z5LgiircSt8m8sRZFNi08kG9Sm0uSHtEmP3zaEGg=="
