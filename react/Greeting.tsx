@@ -1,11 +1,13 @@
+/* eslint-disable no-console */
 import React from 'react'
+import { useProduct } from 'vtex.product-context'
 
-type Props = {
-  name: string
-}
+function Greeting() {
+  const productContextValue = useProduct()
 
-function Greeting({ name }: Props) {
-  return <div>Hey, {name}</div>
+  console.log('productContextValue', productContextValue)
+
+  return <div>Hey, Manuel</div>
 }
 
 export default Greeting
